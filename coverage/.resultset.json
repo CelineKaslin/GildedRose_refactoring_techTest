@@ -1,6 +1,9 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/celinekaslin/Desktop/MakersProject/week10/GildedRose_refactoring_techTest/spec/aged_brie_spec.rb": [
+
+      ],
       "/Users/celinekaslin/Desktop/MakersProject/week10/GildedRose_refactoring_techTest/spec/gilded_rose_spec.rb": [
         null,
         null,
@@ -95,6 +98,6 @@
         null
       ]
     },
-    "timestamp": 1550228022
+    "timestamp": 1550247746
   }
 }

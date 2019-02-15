@@ -9,7 +9,7 @@ describe Item do
     end
 
     it 'return the sell in date of the item' do
-      expect(item.sell_in_date).to eq 10
+      expect(item.sell_in).to eq 10
     end
 
     it 'return the quality of the item' do
@@ -17,9 +17,9 @@ describe Item do
     end
   end
 
-  describe '#item_description' do
+  describe '#to_s' do
     it 'return the description of the item' do
-      expect(item.item_description).to eq('name: magic potion, sell in date: 10 days, quality: 30')
+      expect(item.to_s).to eq('magic potion, 10, 30')
     end
   end
 
